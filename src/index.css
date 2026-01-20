@@ -44,7 +44,7 @@
 
 @layer base
 {
-  :root
+  /*:root
   {
     --background: 210 40% 98%;
     --foreground: 222 47% 11%;
@@ -56,8 +56,24 @@
 
     --border: 214 32% 91%;
   }
+  */
 
+  /*
   .dark
+  {
+    --background: 222 47% 4%;
+    --foreground: 213 31% 91%;
+
+    --card: 222 47% 8%;
+
+    --primary: 250 65% 65%;
+    --primary-foreground: 213 31% 91%;
+
+    --border: 216 33% 20%;
+  }
+  */
+
+  :root
   {
     --background: 222 47% 4%;
     --foreground: 213 31% 91%;
