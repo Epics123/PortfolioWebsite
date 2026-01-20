@@ -88,7 +88,7 @@ const projects =
         description: "A real-time 3D renderer build from scratch using the Vulkan API. Features include dynamic lighting, PBR materials, multi-pass rendering, gizmos, and custom debug overlays.",
         contributions: [],
         image: "../../public/projects/VulkanMaterials.png",
-        tags: ["Vulkan", "C++", "GLSL", "3D Math, Linear Algebra"],
+        tags: ["Vulkan", "C++", "GLSL", "3D Math", "Linear Algebra"],
         demoUrl: "#",
         repoUrl: "https://github.com/Epics123/VulkanRenderer",
     }
