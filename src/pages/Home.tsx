@@ -14,6 +14,8 @@ export const Home = () =>
         {/*<ThemeToggle />}
         {/*Background Effects */}
 
+        <title>Ethan Heil Personal Portfolio</title>
+
         {/* Navbar */}
         <Navbar />
         {/* Main Content */}
