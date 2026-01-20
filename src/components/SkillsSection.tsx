@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { mergeClassNames } from "../lib/utils";
 
 const skills =
