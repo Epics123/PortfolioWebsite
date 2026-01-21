@@ -2,6 +2,11 @@ import { useState } from "react";
 import { mergeClassNames } from "../lib/utils";
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
+import DragonspireSplash from "../images/DragonspireSplash.png"
+import MapstermindLogo from "../images/MapstermindLogo.png"
+import ProjectStarImg from "../images/ProjectStar.png"
+import VulkanRendererImg from "../images/VulkanMaterials.png"
+
 const projects =
 [
     {
@@ -43,7 +48,7 @@ const projects =
         title: "Dragonspire",
         description: "Dragonspire is an anime action roguelike where players can team up with friends to take on ever-evolving challenges.",
         contributions: ["Implemented core gameplay systems and features", "Iterated on and improved existing gameplay features", "Implemented frontend lobby functionality", "Implemented multiplayer spectating"],
-        image: "public/projects/DragonspireSplash.png",
+        image: DragonspireSplash,
         tags: ["Unreal Engine 4/5", "C++", "3D Math", "Linear Algebra", "Perforce", "Jira", "Teamwork", "Problem Solving", "Time Management", "Task Prioritization"],
         demoUrl: "https://store.steampowered.com/app/2160380/Dragonspire/",
         repoUrl: "#",
@@ -65,7 +70,7 @@ const projects =
         title: "Mapstermind",
         description: "Mapstermind is a couch co-op 3v1 asymmetrical party game where the team of 3 must work together to escape a stage controlled by the opposing player before time runs out!",
         contributions: ["Implemented core gameplay systems and features", "Implemented UI and Menu funtionality", "Implemented various stylized shader effects", "Provided technical leadership and planning for the programming team", "Managed the team's repository and branching strategy"],
-        image: "public/projects/MapstermindLogo.png",
+        image: MapstermindLogo,
         tags: ["Unreal Engine 4/5", "C++", "HLSL", "3D Math", "Linear Algebra", "Perforce", "Jira", "Teamwork", "Problem Solving", "Time Management", "Task Prioritization"],
         demoUrl: "https://store.steampowered.com/app/1950250/Mapstermind/",
         repoUrl: "https://github.com/Epics123/Mapstermind",
@@ -76,7 +81,7 @@ const projects =
         title: "Unannounced Indie Game: Project Star",
         description: "A 2D metroidvania set in a dark magitech world. Players take on the role of a young elf who must navigate through a treacherous world while overcoming her own inner demons.",
         contributions: ["Implementing core gameplay systems and features", "Acting as the project's creative and technical lead", "Planning and managing the project's development timeline", "Organizing and leading the development team"],
-        image: "public/projects/ProjectStar.png",
+        image: ProjectStarImg,
         tags: ["Unity", "C#", "3D Math", "Linear Algebra", "Git", "Problem Solving", "Time Management", "Task Prioritization", "Teamwork"],
         demoUrl: "#",
         repoUrl: "#",
@@ -87,7 +92,7 @@ const projects =
         title: "Vulkan Renderer",
         description: "A real-time 3D renderer build from scratch using the Vulkan API. Features include dynamic lighting, PBR materials, multi-pass rendering, gizmos, and custom debug overlays.",
         contributions: [],
-        image: "public/projects/VulkanMaterials.png",
+        image: VulkanRendererImg,
         tags: ["Vulkan", "C++", "GLSL", "3D Math", "Linear Algebra"],
         demoUrl: "#",
         repoUrl: "https://github.com/Epics123/VulkanRenderer",

@@ -1,4 +1,6 @@
 import { mergeClassNames } from "@/lib/utils"
+import profilePic from "../images/EHPortfolio2020.jpg"
+import resume from "../assets/EthanHeil_Resume.pdf"
 
 export const AboutSection = () =>
 {
@@ -35,7 +37,7 @@ export const AboutSection = () =>
                                 Get In Touch
                             </a>
                             <a 
-                            href="../../public/EthanHeil_Resume.pdf" 
+                            href={resume} 
                             download="EthanHeil_Resume.pdf"
                             className=
                                 {mergeClassNames("px-6 py-2 rounded-full border border-primary text-primary",
@@ -47,7 +49,7 @@ export const AboutSection = () =>
 
                     </div>
                     <div>
-                        <img src="../../public/EHPortfolio2020.jpg" alt="Portfolio Picture" className="rounded-lg shadow-lg" />
+                        <img src={profilePic} alt="Portfolio Picture" className="rounded-lg shadow-lg" />
                     </div>
                 </div>
             </div>
