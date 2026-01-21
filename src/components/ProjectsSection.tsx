@@ -19,6 +19,7 @@ const projects =
         tags: ["Unreal Engine 4/5", "C++", "HLSL", "D3D12", "3D Math", "Linear Algebra", "Perforce", "Jira", "Teamwork", "Problem Solving", "Time Management", "Task Prioritization"],
         demoUrl: "https://store.playstation.com/en-us/product/UP0006-CUSA33778_00-APPLEJACKGAME000",
         repoUrl: "#",
+        dates: "Nov 2023 - Sept 2024",
     },
     {
         id: 2,
@@ -30,6 +31,7 @@ const projects =
         tags: ["Unreal Engine 4/5", "C++", "HLSL", "D3D12", "3D Math", "Linear Algebra", "Perforce", "Jira", "Teamwork", "Problem Solving", "Time Management", "Task Prioritization"],
         demoUrl: "#",
         repoUrl: "#",
+        dates: "Sept 2024 - Aug 2025",
     },
     {
         id: 3,
@@ -41,6 +43,7 @@ const projects =
         tags: ["Unreal Engine 4/5", "C++", "HLSL", "D3D12", "3D Math", "Linear Algebra", "Perforce", "Jira", "Teamwork", "Problem Solving", "Time Management", "Task Prioritization"],
         demoUrl: "https://store.steampowered.com/app/1430190/Killing_Floor_3/",
         repoUrl: "#",
+        dates: "Aug 2023 - Nov 2023",
     },
     {
         id: 4,
@@ -52,6 +55,7 @@ const projects =
         tags: ["Unreal Engine 4/5", "C++", "3D Math", "Linear Algebra", "Perforce", "Jira", "Teamwork", "Problem Solving", "Time Management", "Task Prioritization"],
         demoUrl: "https://store.steampowered.com/app/2160380/Dragonspire/",
         repoUrl: "#",
+        dates: "Aug 2022 - Aug 2023",
     },
     {
         id: 5,
@@ -63,6 +67,7 @@ const projects =
         tags: ["Unreal Engine 4/5", "C++", "3D Math", "Linear Algebra", "Perforce", "Jira", "Teamwork", "Problem Solving", "Time Management", "Task Prioritization"],
         demoUrl: "https://store.steampowered.com/app/2170420/Starsiege_Deadzone/",
         repoUrl: "#",
+        dates: "Feb 2022 - Aug 2023",
     },
     {
         id: 6,
@@ -74,6 +79,7 @@ const projects =
         tags: ["Unreal Engine 4/5", "C++", "HLSL", "3D Math", "Linear Algebra", "Perforce", "Jira", "Teamwork", "Problem Solving", "Time Management", "Task Prioritization"],
         demoUrl: "https://store.steampowered.com/app/1950250/Mapstermind/",
         repoUrl: "https://github.com/Epics123/Mapstermind",
+        dates: "May 2021 - May 2022",
     },
     {
         id: 7,
@@ -85,6 +91,7 @@ const projects =
         tags: ["Unity", "C#", "3D Math", "Linear Algebra", "Git", "Problem Solving", "Time Management", "Task Prioritization", "Teamwork"],
         demoUrl: "#",
         repoUrl: "#",
+        dates: "Oct 2025 - Present",
     },
     {
         id: 8,
@@ -96,6 +103,7 @@ const projects =
         tags: ["Vulkan", "C++", "GLSL", "3D Math", "Linear Algebra"],
         demoUrl: "#",
         repoUrl: "https://github.com/Epics123/VulkanRenderer",
+        dates: "2021 - 2023",
     }
 ];
 
@@ -150,6 +158,7 @@ export const ProjectsSection = () =>
 
                                     <div className="flex flex-col flex-1">
                                         <h3 className="text-xl text-primary font-semibold mt-4">{project.title}</h3>
+                                        <h4 className="text-secondary-foreground mt-1">{project.dates}</h4>
                                         
                                         <div className="p-6 flex flex-col flex-1">
                                             <div className="flex-col">
