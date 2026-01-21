@@ -90,8 +90,22 @@ export const SkillSection = () =>
                                 <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
                                     <div 
                                         className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out]"
-                                        style={{ width: skill.level + "%" }}
-                                    />
+                                        style={ { width: skill.level + "%" } }
+                                    >
+                                        <div 
+                                            className="h-full w-full rounded-full"
+                                            style=
+                                            {{
+                                                background: 
+                                                    skill.level < 25 ? "hsl(0, 84%, 60%)" : 
+                                                    skill.level < 45 ? "hsl(40, 96%, 55%)" : 
+                                                    skill.level < 65 ? "hsl(62, 100%, 50%)" : 
+                                                    skill.level < 75 ? "hsl(80, 60%, 53%)" :
+                                                    skill.level < 90 ? "hsl(142, 76%, 36%)" : 
+                                                    "hsl(223 100% 60.5%)"
+                                            }}
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         ))

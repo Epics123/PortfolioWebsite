@@ -23,7 +23,8 @@ export const AboutSection = () =>
 
                         <p className="text-muted-foregound">
                             I have been making games for over 7 years both as a hobby and professionally. Throughout my career, I have worked on a variety of
-                            projects ranging from small indie games to large-scale AAA titles. My journey in game development has equipped me with a diverse 
+                            projects ranging from small indie games to large-scale AAA titles, and have developed games for Xbox (XB1/XSX), 
+                            PlayStation (PS4/PS5), and PC platforms. My journey in game development has equipped me with a diverse 
                             skill set, allowing me to tackle complex challenges and deliver high-quality results. I am always looking to step outside my
                             comfort zone, and learn new technologies and techniques to enhance my craft.
                         </p>
