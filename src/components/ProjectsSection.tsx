@@ -44,7 +44,7 @@ const projects =
         description: "Dragonspire is an anime action roguelike where players can team up with friends to take on ever-evolving challenges.",
         contributions: ["Implemented core gameplay systems and features", "Iterated on and improved existing gameplay features", "Implemented frontend lobby functionality", "Implemented multiplayer spectating"],
         image: "../../public/projects/DragonspireSplash.png",
-        tags: ["Unreal Engine 4/5", "C++", "HLSL", "D3D12", "3D Math", "Linear Algebra", "Perforce", "Jira", "Teamwork", "Problem Solving", "Time Management", "Task Prioritization"],
+        tags: ["Unreal Engine 4/5", "C++", "3D Math", "Linear Algebra", "Perforce", "Jira", "Teamwork", "Problem Solving", "Time Management", "Task Prioritization"],
         demoUrl: "https://store.steampowered.com/app/2160380/Dragonspire/",
         repoUrl: "#",
     },
@@ -55,7 +55,7 @@ const projects =
         description: "Starsiege: Deadzone is a corridor extraction shooter set in the far reaches of space. Delve into derelict space stations overrun by hostile Cybrids in search of valuable resources. Group up with 2 squadmates to search for valuable resources and escape alive.",
         contributions: ["Implemented gameplay and weapons features", "Assessed and fixed gameplay bugs"],
         image: "https://cdn1.epicgames.com/offer/c295bb538708462cb6bd764eabf6b80f/EGS_StarsiegeDeadzoneStarterEdition_ProphecyGames_AddOn_G1A_00_1920x1080-02e0f9ab0e9af1da33fbe195253f57c9?resize=1&w=480&h=270&quality=medium",
-        tags: ["Unreal Engine 4/5", "C++", "HLSL", "D3D12", "3D Math", "Linear Algebra", "Perforce", "Jira", "Teamwork", "Problem Solving", "Time Management", "Task Prioritization"],
+        tags: ["Unreal Engine 4/5", "C++", "3D Math", "Linear Algebra", "Perforce", "Jira", "Teamwork", "Problem Solving", "Time Management", "Task Prioritization"],
         demoUrl: "https://store.steampowered.com/app/2170420/Starsiege_Deadzone/",
         repoUrl: "#",
     },
@@ -66,7 +66,7 @@ const projects =
         description: "Mapstermind is a couch co-op 3v1 asymmetrical party game where the team of 3 must work together to escape a stage controlled by the opposing player before time runs out!",
         contributions: ["Implemented core gameplay systems and features", "Implemented UI and Menu funtionality", "Implemented various stylized shader effects", "Provided technical leadership and planning for the programming team", "Managed the team's repository and branching strategy"],
         image: "../../public/projects/MapstermindLogo.png",
-        tags: ["Unreal Engine 4/5", "C++", "HLSL", "D3D12", "3D Math", "Linear Algebra", "Perforce", "Jira", "Teamwork", "Problem Solving", "Time Management", "Task Prioritization"],
+        tags: ["Unreal Engine 4/5", "C++", "HLSL", "3D Math", "Linear Algebra", "Perforce", "Jira", "Teamwork", "Problem Solving", "Time Management", "Task Prioritization"],
         demoUrl: "https://store.steampowered.com/app/1950250/Mapstermind/",
         repoUrl: "https://github.com/Epics123/Mapstermind",
     },
@@ -227,7 +227,7 @@ function ContributionsList({contributions}: {contributions: string[]})
         {
             contributions.map((contribution, key) => 
             (
-                <li className="text-left" key={key}>{contribution}</li>
+                <li className="text-left text-muted-foreground" key={key}>{contribution}</li>
             ))
             }
         </ul>
