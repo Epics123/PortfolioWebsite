@@ -1,6 +1,7 @@
 import { mergeClassNames } from "@/lib/utils"
 import profilePic from "../images/EHPortfolio2020.jpg"
 import resume from "../assets/EthanHeil_Resume.pdf"
+import { FaLinkedin } from "react-icons/fa";
 
 export const AboutSection = () =>
 {
@@ -41,9 +42,12 @@ export const AboutSection = () =>
                             download="EthanHeil_Resume.pdf"
                             className=
                                 {mergeClassNames("px-6 py-2 rounded-full border border-primary text-primary",
-                                                 "hover:bg-primary/10 transition-colors duration-300"
+                                                 "hover:bg-primary/10 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95 transition-colors duration-300"
                                 )}>
                                     Download Resume
+                            </a>
+                            <a href="https://www.linkedin.com/in/ethancheil/" target="_blank" className="text-primary/80 hover-pop-round-sm">
+                                <FaLinkedin size={40}/>
                             </a>
                         </div>
 

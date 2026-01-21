@@ -19,7 +19,7 @@ export const HomeSection = () =>
                     <span className="opacity-0 animate-fade-in">Hi! </span>
                     <span className="opacity-0 animate-fade-in-delay-medium">I'm </span>
                     <span className="text-primary opacity-0 animate-fade-in-delay-medium-long">Ethan </span>
-                    <span className="text-gradient opacity-0 animate-fade-in-delay-long">Heil</span>
+                    <span className="text-primary opacity-0 animate-fade-in-delay-long">Heil</span>
                 </h1>
 
                 <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-longer">

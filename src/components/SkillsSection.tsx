@@ -69,7 +69,7 @@ export const SkillSection = () =>
                                 key={key} 
                                 onClick={()=> setActiveCategory(category.value)}
                                 className={mergeClassNames(
-                                    "px-5 py-2 rounded-full transition-colors duration-300",
+                                    "rounded-button",
                                     activeCategory === category.value ? "bg-primary text-primary-foreground" : "bg-secondary/70 text-foreground hover:bg-secondary"
                                 )}>
                                     {category.name}

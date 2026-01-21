@@ -58,7 +58,7 @@ const projects =
         category: "professional",
         title: "Starsiege: Deadzone",
         description: "Starsiege: Deadzone is a corridor extraction shooter set in the far reaches of space. Delve into derelict space stations overrun by hostile Cybrids in search of valuable resources. Group up with 2 squadmates to search for valuable resources and escape alive.",
-        contributions: ["Implemented gameplay and weapons features", "Assessed and fixed gameplay bugs"],
+        contributions: ["Implemented gameplay and weapon features", "Assessed and fixed gameplay bugs"],
         image: "https://cdn1.epicgames.com/offer/c295bb538708462cb6bd764eabf6b80f/EGS_StarsiegeDeadzoneStarterEdition_ProphecyGames_AddOn_G1A_00_1920x1080-02e0f9ab0e9af1da33fbe195253f57c9?resize=1&w=480&h=270&quality=medium",
         tags: ["Unreal Engine 4/5", "C++", "3D Math", "Linear Algebra", "Perforce", "Jira", "Teamwork", "Problem Solving", "Time Management", "Task Prioritization"],
         demoUrl: "https://store.steampowered.com/app/2170420/Starsiege_Deadzone/",
@@ -111,7 +111,6 @@ export const ProjectsSection = () =>
     const [activeCategory, setActiveCategory] = useState("all");
     const filteredProjects = projects.filter((project) => activeCategory === "all" || project.category === activeCategory);
 
-
     return (
         <section id="projects" className="py-24 px-4 relative">
             <div className="container mx-auto max-w-5xl">
@@ -128,7 +127,7 @@ export const ProjectsSection = () =>
                             key={key} 
                             onClick={()=> setActiveCategory(category.value)}
                             className={mergeClassNames(
-                                       "px-5 py-2 rounded-full transition-colors duration-300",
+                                       "rounded-button",
                                         activeCategory === category.value ? "bg-primary text-primary-foreground" : "bg-secondary/70 text-foreground hover:bg-secondary"
                             )}
                         >
