@@ -18,5 +18,5 @@ export default defineConfig({
       "@" : path.resolve(__dirname, "./src"),
     }
   },
-  //base:"Epics123.github.io",
+  base:"/PortfolioWebsite",
 })
