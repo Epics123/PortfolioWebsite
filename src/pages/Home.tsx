@@ -6,6 +6,7 @@ import { Navbar } from "@/components/Navbar";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { SkillSection } from "@/components/SkillsSection";
 import { HexagonBackground } from "@/components/HexegonBackground";
+import { JourneyTimelineSection } from "@/components/JourneyTimelineSection";
 //import { ThemeToggle } from "../components/ThemeToggle";
 
 export const Home = () => 
@@ -27,6 +28,7 @@ export const Home = () =>
         <main>
             <HomeSection />
             <AboutSection />
+            <JourneyTimelineSection />
             <SkillSection />
             <ProjectsSection />
             <ContactSection/>

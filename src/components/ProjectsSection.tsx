@@ -112,7 +112,7 @@ const categories =
     { name: "All", value: "all"},
     { name: "Professional", value: "professional"},
     { name: "Personal", value: "personal"},
-]
+];
 
 export const ProjectsSection = () =>
 {
