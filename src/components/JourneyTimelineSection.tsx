@@ -39,7 +39,7 @@ const timelineElements =
         title: "Respawn Entertainment",
         location: "Atlanta, GA",
         dates: "Nov 2023 - Aug 2025",
-        icon: "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-6/306744364_409066211381639_4215932049394369634_n.png?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Lw2ICru5NEoQ7kNvwEnn7K_&_nc_oc=AdlroVfrrTrFp9xwOyk_BGzKdsLJw0UTyy9zhxVG8_cTGCwtfzDz52CLOZRvnwXRhwU&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=8N1tcZ66QMLSFa_wADrcKA&oh=00_AfqH7inIKxhcNm1siVa7cN79zoi5r_CKkbb6sur0ybdDkQ&oe=697ECF9E",
+        icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyr4hljs8Jpm4HWNIdQqPG6FuICw7J1ZfxNA&s",
         description: "Transitioned to more of a generalist programmer role, with a focus on engine, tools, gameplay, and UI programming.",
     },
 ].reverse();
