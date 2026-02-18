@@ -1,4 +1,7 @@
 import { mergeClassNames } from "@/lib/utils";
+import PunchCardLogo from "../images/PunchCardLogo.jpg";
+import ProphecyGamesLogo from "../images/ProphecyGamesLogo.jpg";
+import StarmiLogo from "../images/StarmiLogo.jpg";
 
 const timelineElements =
 [
@@ -15,7 +18,7 @@ const timelineElements =
         title: "Starmi Games",
         location: "Atlanta, GA",
         dates: "Aug 2022 - Aug 2023",
-        icon: "https://media.licdn.com/dms/image/v2/C560BAQE8tFbPkj27Aw/company-logo_200_200/company-logo_200_200/0/1673401925609/starmi_logo?e=1770854400&v=beta&t=IA7FsJHvWiP20zfldWE72B3BaMgHJmNo4fe75KQ6Y0Q",
+        icon: StarmiLogo,
         description: "Joined a small startup game studio. Worked on gameplay and networking features.",
     },
     {
@@ -23,7 +26,7 @@ const timelineElements =
         title: "Prophecy Games",
         location: "Atlanta, GA",
         dates: "Feb 2023 - Apr 2023",
-        icon: "https://media.licdn.com/dms/image/v2/D560BAQEd5jJWbawwLw/company-logo_100_100/company-logo_100_100/0/1685929622428/prophecy_games_logo?e=1770854400&v=beta&t=DTe-p8XxK-I4NGZibzmK2VmEHb86jNVB3BFxUbjvMuk",
+        icon: ProphecyGamesLogo,
         description: "Temporary reassignment to Starmi's sister studio to assist with gameplay feature development.",
     },
     {
@@ -31,7 +34,7 @@ const timelineElements =
         title: "Punch Card Games",
         location: "Atlanta, GA",
         dates: "Aug 2023 - Nov 2023",
-        icon: "https://media.licdn.com/dms/image/v2/C560BAQF3EePwI25Qpg/company-logo_100_100/company-logo_100_100/0/1630660541165/punchcardgames_logo?e=1770854400&v=beta&t=WefUIJ4Y_sgtDX7Jz-bOHUC9wEhSwDuYnNatYvvJzgE",
+        icon: PunchCardLogo,
         description: "Joined a small co-development studio as a software engineer. The studio was aquired by Respawn Entertainment in November, 2023.",
     },
     {
